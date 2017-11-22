@@ -105,14 +105,18 @@ body {
 
 .presentationH {
 	border: 2px solid red;
+<<<<<<< HEAD
 	line-height: 30px;
 	text-align: justify;
+=======
+>>>>>>> 805873b6f03542a8f80e39b1ebdae3e494aeaef9
 }
 
 .lienH {
 	border: 2px solid red;
 }
 
+<<<<<<< HEAD
 .photoH img {
 	width: 160px;
 	height: 160px;
@@ -140,6 +144,8 @@ body {
 	letter-spacing: 1pt;
 }
 
+=======
+>>>>>>> 805873b6f03542a8f80e39b1ebdae3e494aeaef9
 
 /*Zone pour Jean-Luc*/
 .gridJL {
