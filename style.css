@@ -105,12 +105,47 @@ body {
 
 .presentationH {
 	border: 2px solid red;
+<<<<<<< HEAD
+	line-height: 30px;
+	text-align: justify;
+=======
+>>>>>>> 805873b6f03542a8f80e39b1ebdae3e494aeaef9
 }
 
 .lienH {
 	border: 2px solid red;
 }
 
+<<<<<<< HEAD
+.photoH img {
+	width: 160px;
+	height: 160px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 10%;
+}
+
+.presentationH h1 {
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.presentationH q {
+	padding-left: 20px;
+}
+
+#textH {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#citationH {
+	letter-spacing: 1pt;
+}
+
+=======
+>>>>>>> 805873b6f03542a8f80e39b1ebdae3e494aeaef9
 
 /*Zone pour Jean-Luc*/
 .gridJL {
