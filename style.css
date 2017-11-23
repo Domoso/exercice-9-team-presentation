@@ -13,7 +13,7 @@ body {
 	width: 1285px;
 	height: 2000px;
 	grid-template-columns: 1290px;
-	grid-template-rows: 500px 200px 200px 200px 200px 200px;
+	grid-template-rows: 500px 200px 200px 290px 200px 200px;
 }
 
 .header {
@@ -94,7 +94,7 @@ body {
 .gridH {
 	display: grid;
 	width: 1285px;
-	height: 200px;
+	height: 230px;
 	grid-template-columns: 200px 885px 200px;
 	grid-template-rows: 200px;
 }
@@ -144,8 +144,29 @@ body {
 	letter-spacing: 1pt;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 805873b6f03542a8f80e39b1ebdae3e494aeaef9
+=======
+#lienIN {
+	margin-top: 60px;
+	margin-left: 11px;
+	color: black;
+	text-decoration: none;
+}
+
+#lienG {
+	margin-left: 21px;
+	color: black;
+	text-decoration: none;
+}
+
+#lienF {
+	margin-left: 20px;
+	color: black;
+	text-decoration: none;
+}
+>>>>>>> developpementHippo
 
 /*Zone pour Jean-Luc*/
 .gridJL {
