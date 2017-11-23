@@ -100,23 +100,19 @@ body {
 }
 
 .photoH {
-	border: 2px solid red;
+	
 }
 
 .presentationH {
-	border: 2px solid red;
-<<<<<<< HEAD
+	
 	line-height: 30px;
 	text-align: justify;
-=======
->>>>>>> 805873b6f03542a8f80e39b1ebdae3e494aeaef9
 }
 
 .lienH {
-	border: 2px solid red;
+	
 }
 
-<<<<<<< HEAD
 .photoH img {
 	width: 160px;
 	height: 160px;
@@ -144,12 +140,8 @@ body {
 	letter-spacing: 1pt;
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> 805873b6f03542a8f80e39b1ebdae3e494aeaef9
-=======
 #lienIN {
-	margin-top: 60px;
+	padding-top: 60px;
 	margin-left: 11px;
 	color: black;
 	text-decoration: none;
@@ -162,11 +154,10 @@ body {
 }
 
 #lienF {
-	margin-left: 20px;
+	margin-left: 21px;
 	color: black;
 	text-decoration: none;
 }
->>>>>>> developpementHippo
 
 /*Zone pour Jean-Luc*/
 .gridJL {
