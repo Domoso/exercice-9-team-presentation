@@ -1,0 +1,181 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: ubuntu;
+}
+
+.grid {
+	display: grid;
+	border: 3px solid black;
+	width: 1285px;
+	height: 2000px;
+	grid-template-columns: 1290px;
+	grid-template-rows: 500px 200px 200px 290px 200px 200px;
+}
+
+.header {
+	border: 1px solid blue;
+}
+
+.sectionA {
+	border: 1px solid blue;
+}
+
+.sectionM {
+	border: 1px solid blue;
+}
+
+.sectionH {
+	border: 1px solid blue;
+}
+
+.sectionJL {
+	border: 1px solid blue;
+}
+
+.footer {
+	border: 1px solid blue;
+}
+
+.header h1 {
+	text-align: center;
+	margin-top: 35px;
+}
+
+
+/*Zone pour Andrea*/
+.gridA {
+	display: grid;
+	width: 1285px;
+	height: 200px;
+	grid-template-columns: 200px 885px 200px;
+	grid-template-rows: 200px;
+}
+
+.photoA {
+	border: 2px solid red;
+}
+
+.presentationA {
+	border: 2px solid red;
+}
+
+.lienA {
+	border: 2px solid red;
+}
+
+
+/*Zone pour Marine*/
+.gridM {
+	display: grid;
+	width: 1285px;
+	height: 200px;
+	grid-template-columns: 200px 885px 200px;
+	grid-template-rows: 200px;
+}
+
+.photoM {
+	border: 2px solid red;
+}
+
+.presentationM {
+	border: 2px solid red;
+}
+
+.lienM {
+	border: 2px solid red;
+}
+
+
+/*Zone pour Hippolyte*/
+.gridH {
+	display: grid;
+	width: 1285px;
+	height: 230px;
+	grid-template-columns: 200px 885px 200px;
+	grid-template-rows: 200px;
+}
+
+.photoH {
+	
+}
+
+.presentationH {
+	
+	line-height: 30px;
+	text-align: justify;
+}
+
+.lienH {
+	
+}
+
+.photoH img {
+	width: 160px;
+	height: 160px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 10%;
+}
+
+.presentationH h1 {
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.presentationH q {
+	padding-left: 20px;
+}
+
+#textH {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#citationH {
+	letter-spacing: 1pt;
+}
+
+#lienIN {
+	margin-top: 60px;
+	margin-left: 11px;
+	color: black;
+	text-decoration: none;
+}
+
+#lienG {
+	margin-left: 21px;
+	color: black;
+	text-decoration: none;
+}
+
+#lienF {
+	margin-left: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+/*Zone pour Jean-Luc*/
+.gridJL {
+	display: grid;
+	width: 1285px;
+	height: 200px;
+	grid-template-columns: 200px 885px 200px;
+	grid-template-rows: 200px;
+}
+
+.photoJL {
+	border: 2px solid red;
+}
+
+.presentationJL {
+	border: 2px solid red;
+}
+
+.lienJL {
+	border: 2px solid red;
+}
