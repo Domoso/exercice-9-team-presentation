@@ -5,6 +5,7 @@
 
 body {
 	font-family: ubuntu;
+	background-color: #0D1B2A;
 }
 
 .grid {
@@ -13,7 +14,8 @@ body {
 	width: 1285px;
 	height: 2000px;
 	grid-template-columns: 1290px;
-	grid-template-rows: 500px 200px 200px 200px 200px 200px;
+	grid-template-rows: 500px 200px 200px 290px 200px 400px;
+	grid-gap: 10px;
 }
 
 .header {
@@ -22,27 +24,32 @@ body {
 
 .sectionA {
 	border: 1px solid blue;
+	background: #E0E1DD;
 }
 
 .sectionM {
 	border: 1px solid blue;
+	background: #778DA9;
 }
 
 .sectionH {
 	border: 1px solid blue;
+	background: #415A77;
 }
 
 .sectionJL {
 	border: 1px solid blue;
+	background: #1B263B;
 }
 
 .footer {
 	border: 1px solid blue;
 }
 
-.header h1 {
-	text-align: center;
-	margin-top: 35px;
+.header img {
+	padding-top: 50px;
+	padding-left: 370px;
+	color: black;
 }
 
 
@@ -94,31 +101,33 @@ body {
 .gridH {
 	display: grid;
 	width: 1285px;
-	height: 200px;
+	height: 230px;
 	grid-template-columns: 200px 885px 200px;
 	grid-template-rows: 200px;
 }
 
 .photoH {
-	border: 2px solid red;
+<<<<<<< HEAD
+
+=======
+	border: 1px solid red;
+>>>>>>> 48a71b95a3aca42e5281ec77cc604a97c7008732
 }
 
 .presentationH {
-	border: 2px solid red;
+
 	line-height: 30px;
 	text-align: justify;
 }
 
 .lienH {
-	border: 2px solid red;
+
 }
 
 .photoH img {
-	width: 160px;
-	height: 160px;
-	margin-top: 20px;
-	margin-left: 20px;
-	border-radius: 10%;
+	width: 200px;
+	height: 200px;
+	
 }
 
 .presentationH h1 {
@@ -130,16 +139,37 @@ body {
 	padding-left: 20px;
 }
 
-#textH {
+#text {
 	padding-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-#citationH {
+#citation {
 	letter-spacing: 1pt;
 }
 
+#lienIN {
+	margin-top: 90px;
+	margin-left: 11px;
+	color: black;
+	text-decoration: none;
+	color: white;
+}
+
+#lienG {
+	margin-left: 21px;
+	color: black;
+	text-decoration: none;
+	color: white;
+}
+
+#lienF {
+	margin-left: 20px;
+	color: black;
+	text-decoration: none;
+	color: white;
+}
 
 /*Zone pour Jean-Luc*/
 .gridJL {
@@ -152,7 +182,6 @@ body {
 
 .photoJL {
 	border: 2px solid red;
-	n
 }
 
 .presentationJL {
@@ -161,5 +190,4 @@ body {
 
 .lienJL {
 	border: 2px solid red;
-	color: rgb(65, 65, 65)
 }
