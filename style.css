@@ -13,7 +13,7 @@ body {
 	width: 1285px;
 	height: 2000px;
 	grid-template-columns: 1290px;
-	grid-template-rows: 500px 200px 200px 290px 200px 200px;
+	grid-template-rows: 500px 200px 200px 290px 200px 400px;
 }
 
 .header {
@@ -40,9 +40,10 @@ body {
 	border: 1px solid blue;
 }
 
-.header h1 {
-	text-align: center;
-	margin-top: 35px;
+.header img {
+	padding-top: 50px;
+	padding-left: 370px;
+	color: white;
 }
 
 
